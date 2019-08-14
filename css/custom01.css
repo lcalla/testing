@@ -19,13 +19,15 @@ h4 {
 }
 
 .btn-block {
+	color: #b36b00;
 	background-color: #ffe0b3;
+	border-color: #ffb84d;
 }
 
 .btn:hover {
 	color: #000000;
 	background-color: #ffd699;
-	border-color: #357ebd; /*set the color you want here*/
+	border-color: #4d2e00;
 }
 
 .jumbotron {
