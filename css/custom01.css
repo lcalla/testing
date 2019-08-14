@@ -18,12 +18,8 @@ h4 {
 	background-color: #fff5e6;
 }
 
-.btn btn-block {
+.btn btn-info btn-block {
 	background-color: #ffe0b3;
-}
-
-.btn btn-info {
-	color: #00000;
 }
 
 .jumbotron {
