@@ -22,6 +22,12 @@ h4 {
 	background-color: #ffe0b3;
 }
 
+.btn:hover {
+	color: #000000;
+	background-color: #ffd699;
+	border-color: #357ebd; /*set the color you want here*/
+}
+
 .jumbotron {
 	background-color: #000000;
 }
