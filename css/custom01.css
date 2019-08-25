@@ -10,6 +10,13 @@ body {
 .card-header {
 	background-color: transparent;
 	border-color: #ffe6ff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
 }
 
 .card-title {
