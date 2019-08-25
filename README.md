@@ -1,2 +1,2 @@
 # testing
-a simple web page
+a light weight, responsive web page
