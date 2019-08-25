@@ -6,3 +6,13 @@ body {
 .card {
 	border-style: none;
 }
+
+.card-header {
+	background-color: none;
+	border-color: #ffe6ff;
+}
+
+.card-footer {
+	background-color: none;
+	border-color: #ffe6ff;
+}
