@@ -8,11 +8,11 @@ body {
 }
 
 .card-header {
-	background-color: none;
+	background-color: transparent;
 	border-color: #ffe6ff;
 }
 
 .card-footer {
-	background-color: none;
+	background-color: transparent;
 	border-color: #ffe6ff;
 }
