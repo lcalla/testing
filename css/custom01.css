@@ -2,11 +2,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
-	background: rgb(70, 184, 167);
+	background: rgb(222, 188, 15);
 	background: radial-gradient(
 		circle,
-		rgba(70, 184, 167, 1) 0%,
-		rgba(55,80,219,1) 100%
+		rgb(215, 37, 10) 0%,
+		rgb(233, 247, 156) 100%
 	);
 }
 
