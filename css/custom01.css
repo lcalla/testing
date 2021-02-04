@@ -2,12 +2,28 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
-	background: rgb(222, 188, 15);
-	background: radial-gradient(
-		circle,
-		rgb(215, 37, 10) 0%,
-		rgb(233, 247, 156) 100%
-	);
+	background: linear-gradient(179deg, #ffe800, #ef5100);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
 }
 
 .card {
