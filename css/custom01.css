@@ -32,13 +32,13 @@ body {
 
  /* unvisited link */
  a:link {
-	color: #3344dd;
+	color: #001aff;
 	text-decoration: underline;
   }
   
   /* visited link */
   a:visited {
-	color: #3344dd;
+	color: #0013c0;
 	text-decoration: underline;
   }
   
@@ -56,7 +56,7 @@ margin: 0 -1px 0;
   
   /* selected link */
   a:active {
-	color: #bb1122;
+	color: #ff0019;
 	text-decoration: underline;
   } 
 
