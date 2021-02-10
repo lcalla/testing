@@ -24,6 +24,11 @@ body {
     100%{background-position:53% 0%}
 }
 
+.container {
+
+	max-width: 70rem;
+}
+
 .card {
 	background-color: rgb(253, 239, 253);
 	/*
