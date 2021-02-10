@@ -31,23 +31,24 @@ body {
 
  /* unvisited link */
  a:link {
-	color: rgb(25, 0, 255);
+	color: #3344dd;
   }
   
   /* visited link */
   a:visited {
-	color: blue;
+	color: #884488;
   }
   
   /* mouse over link */
   a:hover {
-	color: rgb(255, 0, 0);
-	text-decoration: underline;
+	color: #bb1122;
+	text-decoration-line: underline;
   }
   
   /* selected link */
   a:active {
-	color: blue;
+	color: #bb1122;
+	text-decoration-line: underline;
   } 
 
 .card {
