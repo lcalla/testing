@@ -29,6 +29,26 @@ body {
 	margin: 0 auto;
 }
 
+ /* unvisited link */
+ a:link {
+	color: rgb(25, 0, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+	color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: rgb(255, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+	color: blue;
+  } 
+
 .card {
 	background-color: rgb(253, 239, 253);
 	/*
