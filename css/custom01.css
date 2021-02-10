@@ -32,6 +32,7 @@ body {
  /* unvisited link */
  a:link {
 	color: #3344dd;
+	text-decoration: underline;
   }
   
   /* visited link */
@@ -42,13 +43,13 @@ body {
   /* mouse over link */
   a:hover {
 	color: #bb1122;
-	text-decoration-line: underline;
+	text-decoration: underline;
   }
   
   /* selected link */
   a:active {
 	color: #bb1122;
-	text-decoration-line: underline;
+	text-decoration: underline;
   } 
 
 .card {
