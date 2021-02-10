@@ -38,13 +38,13 @@ body {
   
   /* visited link */
   a:visited {
-	color: #884488;
+	color: #3344dd;
 	text-decoration: underline;
   }
   
   /* mouse over link */
-  a:hover {
-background-color: chartreuse;
+  a:hover, a:focus {
+background-color: yellow;
 border-bottom: 1px solid #707070;
 border-bottom: 1px solid var(--a-normal-underline);
 padding: 0 1px 0;
