@@ -29,6 +29,14 @@ body {
 	margin: 0 auto;
 }
 
+a-normal-text: #034575;
+a-normal-underline: #bbb;
+a-visited-text: var(--a-normal-text);
+a-visited-underline: #707070;
+a-hover-bg: rgba(75%, 75%, 75%, .25);
+a-active-text: #c00;
+a-active-underline: #c00;
+
  /* unvisited link */
  a:link {
 	color: #3344dd;
@@ -43,8 +51,16 @@ body {
   
   /* mouse over link */
   a:hover {
-	color: #bb1122;
-	text-decoration: underline;
+	color: var(--a-normal-text);
+text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+border-bottom: 1px solid #707070;
+border-bottom: 1px solid var(--a-normal-underline);
+padding: 0 1px 0;
+margin: 0 -1px 0;
   }
   
   /* selected link */
