@@ -1,101 +1,119 @@
-
 body {
-    background: linear-gradient(0deg, #fcffb3, #ff4c00);
-    background-size: 400% 400%;
+  background: linear-gradient(0deg, #fcffb3, #ff4c00);
+  background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 28s ease infinite;
-    -moz-animation: AnimationName 28s ease infinite;
-    animation: AnimationName 28s ease infinite;
+  -webkit-animation: AnimationName 28s ease infinite;
+  -moz-animation: AnimationName 28s ease infinite;
+  animation: AnimationName 28s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:53% 0%}
-    50%{background-position:48% 100%}
-    100%{background-position:53% 0%}
+  0% {
+    background-position: 53% 0%;
+  }
+  50% {
+    background-position: 48% 100%;
+  }
+  100% {
+    background-position: 53% 0%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:53% 0%}
-    50%{background-position:48% 100%}
-    100%{background-position:53% 0%}
+  0% {
+    background-position: 53% 0%;
+  }
+  50% {
+    background-position: 48% 100%;
+  }
+  100% {
+    background-position: 53% 0%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:53% 0%}
-    50%{background-position:48% 100%}
-    100%{background-position:53% 0%}
+  0% {
+    background-position: 53% 0%;
+  }
+  50% {
+    background-position: 48% 100%;
+  }
+  100% {
+    background-position: 53% 0%;
+  }
 }
 
 .container {
-	max-width: 40rem;
-	margin : 30px auto 0 auto;
+  max-width: 40rem;
+  margin: 30px auto 0 auto;
 }
 
+/* unvisited link */
+a:link {
+  color: #001aff;
+  text-decoration: underline;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid yellow;
+  padding: 2px;
+}
 
- /* unvisited link */
- a:link {
-	color: #001aff;
-	text-decoration: underline;
-	background-color: rgb(248, 248, 248);
-border: 1px solid yellow;
-padding: 2px;
-  }
-  
-  /* visited link */
-  a:visited {
-	color: #0013c0;
-	text-decoration: underline;
-	border: 1px solid yellow;
-	padding: 2px;
-  }
-  
-  /* mouse over link */
-  a:hover, a:focus {
-background-color: yellow;
-border: 1px solid yellow;
-padding: 2px;
-  }
-  
-  /* selected link */
-  a:active {
-	color: #ff0019;
-	text-decoration: underline;
-	border: 1px solid yellow;
-padding: 2px;
-  } 
+/* visited link */
+a:visited {
+  color: #0013c0;
+  text-decoration: underline;
+  border: 1px solid yellow;
+  padding: 2px;
+}
+
+/* mouse over link */
+a:hover,
+a:focus {
+  background-color: yellow;
+  border: 1px solid yellow;
+  font-weight: bold;
+  padding: 2px;
+}
+
+/* selected link */
+a:active {
+  color: #ff0019;
+  text-decoration: underline;
+  border: 1px solid yellow;
+  padding: 2px;
+}
 
 .card {
-	background-color: rgb(253, 239, 253);
-	/*
+  background-color: rgb(253, 239, 253);
+  /*
 	border-style: none;
 	*/
 }
 
 .card-header {
-	background-color: white;
-	border-color: #ffe6ff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:400;
+  background-color: white;
+  border-color: #ffe6ff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 h1 {
-	font-family: 'Merriweather', serif;
-	font-weight:700;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
 }
 
 .card-title {
-	font-family: 'Merriweather', serif;
-	font-weight:700;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
 }
 
 .card-text {
-	font-family: 'Open Sans', sans-serif;
-	font-weight:400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .card-footer {
-	background-color: transparent;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:400;
-	text-align: center;
-	width: 70%;
-	margin: auto;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 70%;
+  margin: auto;
 }
