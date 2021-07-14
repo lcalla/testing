@@ -100,7 +100,7 @@ a:active {
 
 .card-header {
   background-color: white;
-  border-color: #ffe6ff;
+  /*border-color: #ffe6ff;*/
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
