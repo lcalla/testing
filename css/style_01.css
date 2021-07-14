@@ -1,0 +1,47 @@
+body {
+
+.container {
+    max-width: 40rem;
+    margin: 30px auto 0 auto;
+  }
+
+
+.card {
+  background-color: rgb(253, 239, 253);
+	border-style: none;
+}
+
+
+.card-header {
+  background-color: white;
+  /*border-color: #ffe6ff;*/
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.card-title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.card-footer {
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  width: 20%;
+
+  /*
+  margin: auto;
+  */
+}
