@@ -48,6 +48,8 @@ body {
   }
 
   /* unvisited link */
+
+  /*
   a:link {
     color: #001aff;
     text-decoration: underline;
@@ -55,14 +57,18 @@ body {
     border: 1px solid yellow;
     padding: 2px;
   }
+  */
 
   /* visited link */
+
+  /*
   a:visited {
     color: #0013c0;
     text-decoration: underline;
     border: 1px solid yellow;
     padding: 2px;
   }
+  */
 
   /* mouse over link */
   /*
@@ -84,14 +90,15 @@ a:active {
   border: 1px solid yellow;
   padding: 2px;
 }
+*/
 
 .card {
   background-color: rgb(253, 239, 253);
-  /*
 	border-style: none;
-	*/
 }
-*/ .card-header {
+
+
+.card-header {
   background-color: white;
   border-color: #ffe6ff;
   font-family: "Open Sans", sans-serif;
