@@ -36,12 +36,6 @@ h1 {
   font-weight: 400;
 }
 
-img {
-  display: block;
-  max-width: 25%;
-  height: auto;
-}
-
 .card-footer {
   background-color: transparent;
   font-family: "Open Sans", sans-serif;
