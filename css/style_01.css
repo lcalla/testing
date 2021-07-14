@@ -1,3 +1,5 @@
+
+
 body {
 
 .container {
@@ -14,7 +16,7 @@ body {
 
 .card-header {
   background-color: white;
-  /*border-color: #ffe6ff;*/
+border-color: #ffe6ff;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -40,8 +42,4 @@ h1 {
   font-weight: 400;
   text-align: left;
   width: 20%;
-
-  /*
-  margin: auto;
-  */
 }
