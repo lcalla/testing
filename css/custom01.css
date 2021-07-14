@@ -1,4 +1,5 @@
 body {
+  /*
   background: linear-gradient(0deg, #fcffb3, #ffee91);
   background-size: 400% 400%;
 
@@ -40,30 +41,31 @@ body {
     background-position: 53% 0%;
   }
 }
+*/
+  .container {
+    max-width: 40rem;
+    margin: 30px auto 0 auto;
+  }
 
-.container {
-  max-width: 40rem;
-  margin: 30px auto 0 auto;
-}
+  /* unvisited link */
+  a:link {
+    color: #001aff;
+    text-decoration: underline;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid yellow;
+    padding: 2px;
+  }
 
-/* unvisited link */
-a:link {
-  color: #001aff;
-  text-decoration: underline;
-  background-color: rgb(248, 248, 248);
-  border: 1px solid yellow;
-  padding: 2px;
-}
+  /* visited link */
+  a:visited {
+    color: #0013c0;
+    text-decoration: underline;
+    border: 1px solid yellow;
+    padding: 2px;
+  }
 
-/* visited link */
-a:visited {
-  color: #0013c0;
-  text-decoration: underline;
-  border: 1px solid yellow;
-  padding: 2px;
-}
-
-/* mouse over link */
+  /* mouse over link */
+  /*
 a:hover,
 a:focus {
   background-color: yellow;
@@ -71,8 +73,11 @@ a:focus {
   font-weight: bold;
   padding: 2px;
 }
+*/
 
-/* selected link */
+  /* selected link */
+
+  /*
 a:active {
   color: #ff0019;
   text-decoration: underline;
@@ -86,8 +91,7 @@ a:active {
 	border-style: none;
 	*/
 }
-
-.card-header {
+*/ .card-header {
   background-color: white;
   border-color: #ffe6ff;
   font-family: "Open Sans", sans-serif;
