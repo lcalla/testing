@@ -1,16 +1,8 @@
-/*
-body::before {
-  display: block;
-  content: "";
-  height: 60px;
-}
-*/
 body {
-  padding-top: 70px;
+  padding-top: 60px;
 }
-
-@media (min-width: 768px) {
-  .news-input {
-    width: 50%;
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
   }
 }
